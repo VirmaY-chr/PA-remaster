@@ -20,7 +20,6 @@ public class BgObject : MonoBehaviour
     float minSize = 0;
     float maxSize = 500;
 
-
     private void Awake()
     {
         mr = transform.GetChild(0).GetComponent<MeshRenderer>();
